@@ -51,6 +51,10 @@ You should get a message that states your Python version:
   <img src="assets/confirm-python-installation.png" alt="Example terminal output for successful Python 3.11 installation">
 </p>
 
+If the above doesn't work, try:
+
+    py --version
+
 ### Save a copy of the program
 
 Create a text file on your laptop, and name it `image-finder.py`. This is our Python program.
@@ -67,13 +71,19 @@ Create a text file on your laptop, and name it `image-finder.py`. This is our Py
 
    3. Right-click on your file, and select the "copy path" option. The filepath should now be saved in your clipboard.
 
-2. Launch **Command Prompt** and run the following:
+2. Launch **Command Prompt** and run the correct command below:
 
-   <path-to-program> <source-folder> <destination-folder>
+   ```sh
+   # If your version check worked with "python"
+   python <path-to-program> <source-folder> <destination-folder>
 
-If any images are found, you should now see a bunch of lines coming up in tis format:
+   # If your version check worked with "py"
+   py <path-to-program> <source-folder> <destination-folder>
+   ```
 
-    "Copied: <filepath-of-image> -> <location-of-copied-image>"
+   If any images are found, you should now see a bunch of lines coming up in this format:
+
+   "Copied: \<filepath-of-image> -> \<location-of-copied-image>"
 
 Once the program is finished running, you'll see `All done! Check out your newly found images.` printed.
 
