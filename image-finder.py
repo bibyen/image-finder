@@ -19,6 +19,8 @@ def copy_images(source_dir, destination_dir):
                 # Copy the image file to the destination directory
                 shutil.copy2(source_path, destination_path)
                 print("Copied: {} -> {}".format(source_path, destination_path))
+    
+    print("All done! Check out your newly found images.")
 
 # Function to parse command-line arguments
 def parse_arguments():
