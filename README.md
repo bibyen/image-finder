@@ -12,6 +12,11 @@ Here's a Python program that accepts the filepaths of two folders:
 
 > [_**Wait, how do I get a filepath to a folder/file?**_](#how-do-i-get-a-filepath-to-a-folderfile)
 >
+> If you want the filepath of a folder:
+> Open up File Explorer and right-click on the file/folder whose filepath you need.
+> Copy the filepath into your clipboard by selecting the "copy path" option from the dropdown menu!
+>
+> If you want the filepath of a file:
 > Open up File Explorer and right-click on the file/folder whose filepath you need.
 > Copy the filepath into your clipboard by selecting the "copy path" option from the dropdown menu!
 
